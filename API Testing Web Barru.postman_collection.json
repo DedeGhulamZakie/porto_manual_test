@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "84e4a64f-8e20-426f-ad72-33e7085e4cac",
+		"name": "API Testing Web Barru",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25216978"
+	},
+	"item": [
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"email\": \"dedeghulam@gmail.com\",\r\n \"password\": \"dede123\",\r\n \"name\": \"dede ghulam zakie\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://barru.pythonanywhere.com/register",
+					"protocol": "http",
+					"host": [
+						"barru",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"dedeghulam@gmail.com\",\r\n    \"password\": \"asdasdasda\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://barru.pythonanywhere.com/login",
+					"protocol": "http",
+					"host": [
+						"barru",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
